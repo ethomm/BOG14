@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<meta name="author" content="Eirik Thommessen">
+	<!--Imports stylesheets-->
+	<link href="style/css.css" rel="stylesheet">
+	<link href="style/bootstrap.css" rel="stylesheet">
+	<link href="style/bootstrap-responsive.css" rel="stylesheet">
+	<!--Imports FontAwesome to get special symbols -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<title>Gruppe 14 Three.js test</title>
+</head>
+<body>
+<!--Beginning of controller-->
+	<div class="container-fluid" id="top-controller">
+		<div class="container">
+			<div class="col-xs-12">
+				<h1>Simple 3D interaction and manipulation WebGL</h1>
+			</div>
+
+			<div class="col-md-3 col-xs-6">
+				<h3>stats:</h3>
+				<span id="stats"></span>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<h3>Model:</h3>
+				<select class="form-control" id="modelSelect">
+					<option value="1">R2D2</option>
+					<option value="2">Millenium Falcon</option>
+					<option value="3">X-Wing Fighter</option>
+
+				</select>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<h3>Scale</h3>
+				<input type="range" class="slider" id="scale" step="0.1" name="scale" value="0.05" min="0" max="0.5" >
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<h3>Rotation</h3>
+				<div class="buttonholder">
+					<button type="button" class="btn btn-success">On</button>
+					<button type="button" class="btn btn-danger">Off</button><br/>
+					<button type="button" class="btn buttonbottom btn-warning">Reset</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End of controller -->
+	<!--Loader div -->
+		<div id="loader"><i class="fa fa-cog fa-spin"></i>&nbsp;Rendering</div>
+	<!--3d render view -->
+		<div id="threecontainer"></div>
+	<!--Scripts needed for the page -->
+	<footer class="container footer">Denne siden er ment som en prøve side for Bacheloroppgaven 2016 (gruppe 14) ved Høgskolen i Østfold</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/three.js"></script>
+		<script src="js/ColladaLoader3.js"></script>
+		<script src="js/stats.min.js"></script>
+	<!--Costum Javascript for this page -->
+		<script src="js/simple.js" async></script>
+<body>
+</html>

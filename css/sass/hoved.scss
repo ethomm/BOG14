@@ -1,0 +1,175 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+/*Global settings*/
+$fontSize: 16px;
+
+
+/*Page color variables*/
+$color1: #255C69;
+$color2: #2A7F40;
+$color3: #AA4639;
+$color4: #AA7139;
+$shadowColor: #ccc;
+
+
+/*Header settings*/
+$topPaddingSize: 70px;
+
+
+/*Menu settings*/
+$topPadding: 0px;
+
+/*Break points*/
+$breakpoint1: 992px ;
+$breakpoint2: 767px;
+$breakpoint3: 653px;
+
+/*Profile Images*/
+@mixin profileImage($name){
+	display: block;
+	background-image: url(../images/persons/#{$name}_norm.jpg);
+	min-width: 200px;
+	min-height: 200px;	
+	background-size: 100%;
+	border-radius: 50%;
+	width: 50%;
+	margin: 0 auto 0 auto;
+	@media screen and (max-width: $breakpoint1){
+	max-width: 100px;
+	max-height: 100px;
+	min-height: 100px;
+	min-width: 100px;
+	}
+	&:hover{
+		background-image: url(../images/persons/#{$name}.jpg);
+	}	
+}
+
+.headertext h1{
+	
+	color: lighten($color1, 70%);
+	padding: $topPaddingSize 0 $topPaddingSize 0;
+	font-size: 3em;
+		small{
+			color: { }
+		}
+	@media screen and(max-width: $breakpoint1){
+		font-size: 2.5em;
+		padding: ($topPaddingSize/2) 0 ($topPaddingSize/2) 0;
+		small{
+			font-size: 0.5em;
+
+		}
+	}
+	@media screen and(max-width: $breakpoint3){
+		font-size: 1.5em;
+		padding: ($topPaddingSize/3) 0 ($topPaddingSize/3) 0;
+	}
+}
+
+body{
+	background-color: darken($color1, 15%);
+	color: #333;
+	font-size: $fontSize;
+
+}
+
+main{
+	background-color: white;
+	padding: 20px 0 50px 0;
+}
+
+h2{
+	text-transform: uppercase;
+	
+}
+h5{
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+header{
+	background-color: darken($color1, 10%);
+	
+}
+
+.menu{
+	background-color: darken($color1, 15%);
+	}
+nav{ 
+	ul {
+	color: $color2;
+	font-size: 1.3em;
+	padding: $topPadding 0 0 0;
+	font-weight: bold;
+	}
+	@media screen and(max-width: $breakpoint2){
+		ul{
+		padding: 0;
+	}
+	}
+}
+
+section{
+	margin: 20px 0 0 0 ;
+	border-top: 1px ridge $shadowColor;
+		img{
+		max-width: 100%;
+	}
+	&:first-of-type{
+		border: none;
+	}
+	@media screen and(max-width: $breakpoint3){
+		border-top: 1px ridge $shadowColor;
+	}
+
+}
+
+
+footer{
+	display: block;
+	margin: 30px 0 0 0;
+	font-size: 0.6em;
+	bottom: 0;
+	background-color: darken($color1, 15%);
+	color: lighten($color3, 20%);
+
+}
+
+.profile {
+	margin: 20px 0 0 0 ;
+	h3{
+		text-align: center;
+	}
+	&:nth-of-type(3){
+		border-left: 1px ridge $shadowColor;
+		border-right: 1px ridge $shadowColor;
+	}
+	@media screen and(max-width: $breakpoint2){
+	&:nth-of-type(3){
+		border-left: 0;
+		border-right:0;
+	}
+	
+	}
+
+}
+
+.eirik{
+	@include profileImage(eirik);
+}
+.janina{
+	@include profileImage(janina);
+}
+.joakim{
+	@include profileImage(joakim);
+}
+
+.credit, .email{
+	text-align: center;
+}
+
+.mobilemenu{
+	color: white;
+	font-size: 2em;
+}
