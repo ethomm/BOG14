@@ -41,7 +41,7 @@
   </p>
   </article>
   <aside class="col-sm-4 col-sm-offset-2">
-    <img src="../images/logos/ifelogo.png" alt="Ife logo" />
+    <img src="http://frigg.hiof.no/bo16-g14/images/logos/ifelogo.png" alt="Ife logo" />
     <article>
     <h3>Kontaktperson</h3>
     <h4>Michael Louka</h4>
