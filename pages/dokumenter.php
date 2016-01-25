@@ -31,7 +31,7 @@
       <p>Rapporten dekker også plan for gjennomføring og en risikoanalyse</p>
     </article>
     <aside class="col-sm-4">
-    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="#"> Last ned forsprosjektsrapporten</a>
+    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/forprosjektraport.pdf"> Last ned forprosjektsrapporten</a>
     </aside>
   </div>
   <div class="row">
@@ -42,7 +42,7 @@
       <p>Målet med denne rapporten er å finne frem til hvilken tjeneste eller rammeverk som skal brukes i bacheloroppgaven.</p>
     </article>
     <aside class="col-sm-4">
-    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="#">Last ned rapporten om WebGL rammeverk</a>
+    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/rammeverkforwebgl.pdf">Last ned rapporten om WebGL rammeverk</a>
     </aside>
   </div>
   </section>
