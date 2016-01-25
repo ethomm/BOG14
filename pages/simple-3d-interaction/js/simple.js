@@ -42,7 +42,6 @@ document.getElementById('stats').appendChild(stats3.domElement);
 			var endTime = new Date();
 			var result = (endTime - startTime)/1000;
 			$('#loadtime').text(bytes.toFixed(2)+ " Mb på "+result + " sekunder ("+(bytes/result).toFixed(2) + " Mb/s)");
-			console.log(result);
 		}
 	};
 
