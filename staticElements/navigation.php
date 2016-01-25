@@ -12,7 +12,7 @@
   		<ul class="nav navbar-nav">
     	<li><a href="#"><i class="fa fa-home">&nbsp;</i>Hjem</a></li>
     	
-    	<li><a href="#"><i class="fa fa-folder-open">&nbsp;</i>Dokumenter</a></li>
+    	<li><a href="pages/dokumenter.php"><i class="fa fa-folder-open">&nbsp;</i>Dokumenter</a></li>
     	<li><a href="#"><i class="fa fa-briefcase">&nbsp;</i>Oppdragsgiver</a></li>
     	<li><a href="#"><i class="fa fa-file-code-o">&nbsp;</i>Prototyper</a></li>
     	</ul>

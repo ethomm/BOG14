@@ -125,6 +125,13 @@ section{
 
 }
 
+aside{
+	margin-top: 60px;
+	@media screen and(max-width: $breakpoint2){
+		margin-top: 0;
+	}
+}
+
 
 footer{
 	display: block;
@@ -132,7 +139,11 @@ footer{
 	font-size: 0.6em;
 	bottom: 0;
 	background-color: darken($color1, 15%);
-	color: lighten($color3, 20%);
+	color: darken(white, 50%);
+	p{
+		margin: 0px;
+		padding: 0px;
+	}
 
 }
 
