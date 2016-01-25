@@ -54,6 +54,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/logos\/ifelogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27495,
+		"inputAbbreviatedPath": "\/images\/logos\/ifelogo.png",
+		"outputAbbreviatedPath": "\/images\/logos\/ifelogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logos\/webgl.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -417,6 +428,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pages\/oppdragsgiver.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/oppdragsgiver.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/prototyper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/prototyper.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pages\/simple-3d-interaction\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -573,6 +602,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader3-min.js",
 		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/min\/ColladaLoader3-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/simple-3d-interaction\/js\/min\/simple-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/simple-min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/min\/simple-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1004,7 +1044,7 @@
 			"flagValue": -1
 			},
 		"latedef": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"laxbreak": {

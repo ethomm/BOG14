@@ -30,7 +30,21 @@ document.getElementById('stats').appendChild(stats.domElement);
 document.getElementById('stats').appendChild(stats2.domElement);
 document.getElementById('stats').appendChild(stats3.domElement);
 
-
+//Stoppwatch and bytes counter
+	var stopWatch = {
+		startTime: 0 ,
+		start: function(){
+			this.startTime = new Date();
+			$('#loadtime').text("Venter...");
+			}, 
+		stop: function(bytes){
+			var startTime = this.startTime;
+			var endTime = new Date();
+			var result = (endTime - startTime)/1000;
+			$('#loadtime').text(bytes.toFixed(2)+ " Mb på "+result + " sekunder ("+(bytes/result).toFixed(2) + " Mb/s)");
+			console.log(result);
+		}
+	};
 
 //Funtion to set the screen
 var screenSize = function (){
@@ -77,18 +91,25 @@ function render (){
 
 //Initializes the Scene. Also when new model is loaded
 function initScene(){
+		stopWatch.start();
 		loading();
 		document.getElementById('threecontainer').appendChild(renderer.domElement);
 		scene.add(light);
 		scene.add(camera);
 		var loader = new THREE.ColladaLoader();
+		var totalBytes = 0;
 		loader.options.convertUpAxis = true;
-		loader.load(displayModel, function( collada){
+		loader.load(displayModel, 
+			function(collada){
 			model = collada.scene;
 			scene.add(model);
 			render();
 			doneLoading();
-		});	
+			stopWatch.stop(totalBytes);
+			}, 
+			function(xhr){
+				totalBytes = xhr.total/1000000;
+			});	
 	}
 //Loading/Render Handler
 function loading (){

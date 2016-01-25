@@ -13,7 +13,7 @@
     	<li><a href="http://frigg.hiof.no/bo16-g14/"><i class="fa fa-home">&nbsp;</i>Hjem</a></li>
     	
     	<li><a href="http://frigg.hiof.no/bo16-g14/pages/dokumenter.php"><i class="fa fa-folder-open">&nbsp;</i>Dokumenter</a></li>
-    	<li><a href="#"><i class="fa fa-briefcase">&nbsp;</i>Oppdragsgiver</a></li>
+    	<li><a href="pages/oppdragsgiver.php"><i class="fa fa-briefcase">&nbsp;</i>Oppdragsgiver</a></li>
     	<li><a href="#"><i class="fa fa-file-code-o">&nbsp;</i>Prototyper</a></li>
     	</ul>
     	</nav>
