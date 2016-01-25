@@ -30,7 +30,7 @@
       <p>Denne prototypen tar for seg lasting av .dae (collada) inn på nettsiden via en parser. I denne prototypen har vi brukt collada loader som er hentet fra "dev" branchen i <a href="https://github.com/mrdoob/three.js/tree/dev/src/loaders" target="_blank"><i class="fa fa-external-link-square">&nbsp;</i>Github prosjektet.</a> I prototypen har vi tatt utganspunkt i tre modeller, for å se på lastetiden ved bytte av modell i realtime.
     </article>
     <aside class="col-sm-4">
-    <i class="fa fa-file-code-o">&nbsp;</i><a href="../vedlegg/forprosjektraport.pdf" target="_blank">Gå til prototype </a>
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/simple-3d-interaction/index.html" target="_blank">Gå til prototype </a>
     </aside>
   </div>
   </section>
