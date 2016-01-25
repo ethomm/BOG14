@@ -131,11 +131,20 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
+	"\/index.old.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/index.old.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -390,234 +399,279 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/pages\/threeproto\/index.html": {
+	"\/pages\/forsiden.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/index.html",
+		"inputAbbreviatedPath": "\/pages\/forsiden.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/threeproto\/js\/app1.js": {
+	"\/pages\/simple-3d-interaction\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/simple-3d-interaction\/js\/application.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/app1.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/app1-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/application.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/application-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/application.js": {
+	"\/pages\/simple-3d-interaction\/js\/bootstrap-affix.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/application.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/application-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/bootstrap-affix.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/bootstrap-affix-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/bootstrap-affix.js": {
+	"\/pages\/simple-3d-interaction\/js\/bootstrap-alert.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/bootstrap-affix.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/bootstrap-affix-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/bootstrap-alert.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/bootstrap-alert-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/bootstrap-alert.js": {
+	"\/pages\/simple-3d-interaction\/js\/bootstrap-button.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/bootstrap-alert.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/bootstrap-alert-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/bootstrap-button.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/bootstrap-button-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/bootstrap-button.js": {
+	"\/pages\/simple-3d-interaction\/js\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/bootstrap-button.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/bootstrap-button-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/bootstrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/bootstrap.js": {
+	"\/pages\/simple-3d-interaction\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/bootstrap-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/bootstrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/bootstrap.min.js": {
+	"\/pages\/simple-3d-interaction\/js\/ColladaLoader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/bootstrap.min-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/ColladaLoader.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/ColladaLoader.js": {
+	"\/pages\/simple-3d-interaction\/js\/ColladaLoader2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/ColladaLoader.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/ColladaLoader-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/ColladaLoader2.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/ColladaLoader2.js": {
+	"\/pages\/simple-3d-interaction\/js\/ColladaLoader3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/ColladaLoader2.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/ColladaLoader2-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/ColladaLoader3.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/ColladaLoader3.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/ColladaLoader3.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/ColladaLoader3-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/pages\/threeproto\/js\/google-code-prettify\/prettify.css": {
+	"\/pages\/simple-3d-interaction\/js\/google-code-prettify\/prettify.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/google-code-prettify\/prettify.css",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/google-code-prettify\/prettify.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/threeproto\/js\/google-code-prettify\/prettify.js": {
+	"\/pages\/simple-3d-interaction\/js\/google-code-prettify\/prettify.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/google-code-prettify\/prettify.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/google-code-prettify\/min\/prettify-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/google-code-prettify\/prettify.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/google-code-prettify\/min\/prettify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/jquery.js": {
+	"\/pages\/simple-3d-interaction\/js\/jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/jquery.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/jquery-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/jquery.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/min\/app1-min.js": {
+	"\/pages\/simple-3d-interaction\/js\/min\/app1-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/app1-min.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/min\/app1-min-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/app1-min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/min\/app1-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/min\/ColladaLoader3-min.js": {
+	"\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader3-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/ColladaLoader3-min.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/min\/ColladaLoader3-min-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/ColladaLoader3-min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/min\/ColladaLoader3-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/min\/Tween-min.js": {
+	"\/pages\/simple-3d-interaction\/js\/min\/Tween-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/Tween-min.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/min\/Tween-min-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/Tween-min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/min\/Tween-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/stats.min.js": {
+	"\/pages\/simple-3d-interaction\/js\/simple.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/stats.min.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/stats.min-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/simple.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/simple-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/js\/three.js": {
+	"\/pages\/simple-3d-interaction\/js\/stats.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/js\/three.js",
-		"outputAbbreviatedPath": "\/pages\/threeproto\/js\/min\/three-min.js",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/stats.min.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/stats.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/pages\/threeproto\/style\/bootstrap-responsive.css": {
+	"\/pages\/simple-3d-interaction\/js\/three.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/three.js",
+		"outputAbbreviatedPath": "\/pages\/simple-3d-interaction\/js\/min\/three-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/simple-3d-interaction\/style\/bootstrap-responsive.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/style\/bootstrap-responsive.css",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/style\/bootstrap-responsive.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/threeproto\/style\/bootstrap.css": {
+	"\/pages\/simple-3d-interaction\/style\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/style\/bootstrap.css",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/style\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pages\/threeproto\/style\/css.css": {
+	"\/pages\/simple-3d-interaction\/style\/css.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pages\/threeproto\/style\/css.css",
+		"inputAbbreviatedPath": "\/pages\/simple-3d-interaction\/style\/css.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staticElements\/footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staticElements\/footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staticElements\/head.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staticElements\/head.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staticElements\/navigation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staticElements\/navigation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staticElements\/scripts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staticElements\/scripts.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -635,7 +689,7 @@
 	"iconImageName": "harddrive_brown"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
