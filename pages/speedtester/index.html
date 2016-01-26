@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<meta name="author" content="Eirik Thommessen">
+	<!--Imports stylesheets-->
+	<link href="css/css.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="style/bootstrap-responsive.css" rel="stylesheet">
+	<!--Imports FontAwesome to get special symbols -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<title>SpeedTester</title>
+</head>
+<body>
+<!--Beginning of controller-->
+	<div class="container-fluid" id="top-controller">
+		<div class="container">
+			<h1 class="center">Collada vs Json loading</h1>
+			<p>Denne testen tar for seg hastigheten ved å laste inn en colladamodel igjennom en parser på klientsiden. Målet med testen er å se på fordeler og ulemper med å legge jobben med parsingen til klient side versus å sende modellen som en JSON string. Testen foretar 50 gjennomkjøringer</p>
+<div class="row">
+			<div class="col-md-2 col-xs-4 right">
+				Størrelse:<br />
+				Min tid:<br />
+				Maks tid:<br />
+				Gjennomsnitt:<br />
+				Maks hastighet:<br />
+				Min hastighet:<br />
+				Gjennomsnittstid:<br />
+			</div>
+			<div class="col-md-3 col-xs-4">
+				<span id="size"></span><br />
+				<span id="mintime"></span><br />
+				<span id="maxtime"></span><br />
+				<span id="avgtime"></span><br />
+				<span id="maxsped"></span><br />
+				<span id="minspeed"></span><br />
+				<span id="avgspeed"></span><br />
+			</div>
+			<div class="col-md-3 col-xs-4">
+			<button class="btn btn-success">Start collada test</button>
+			<button class="btn btn-info">Start JSON test</button>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<!--3d render view -->
+		<div id="threecontainer"></div>
+	<!--Scripts needed for the page -->
+	<footer class="container footer">Denne siden er ment som en prøve side for Bacheloroppgaven 2016 (gruppe 14) ved Høgskolen i Østfold</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/three.js"></script>
+		<script src="js/ColladaLoader3.js"></script>
+	<!--you will find the normal one under js/simple.js  -->
+<body>
+</html>

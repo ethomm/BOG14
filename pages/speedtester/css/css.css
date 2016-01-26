@@ -41,3 +41,16 @@ footer{
 .center{
 	text-align: center;
 }
+
+.right {
+	text-align: right;
+}
+
+.btn{
+	margin-bottom: 20px !important;
+}
+.row{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 20px 0 20px 0;
+}
