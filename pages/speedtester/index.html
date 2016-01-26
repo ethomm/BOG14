@@ -6,7 +6,7 @@
 	<!--Imports stylesheets-->
 	<link href="css/css.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="style/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<!--Imports FontAwesome to get special symbols -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
@@ -38,20 +38,21 @@
 				<span id="avgspeed"></span><br />
 			</div>
 			<div class="col-md-3 col-xs-4">
-			<button class="btn btn-success">Start collada test</button>
-			<button class="btn btn-info">Start JSON test</button>
+			<button id="startcollada" class="btn btn-success">Start collada test</button>
+			<button id="startjson" class="btn btn-info">Start JSON test</button>
 			</div>
 		</div>
 		</div>
 	</div>
 
 	<!--3d render view -->
-		<div id="threecontainer"></div>
+		<div id="testContainer"></div>
 	<!--Scripts needed for the page -->
 	<footer class="container footer">Denne siden er ment som en prøve side for Bacheloroppgaven 2016 (gruppe 14) ved Høgskolen i Østfold</footer>
 		<script src="js/jquery.js"></script>
 		<script src="js/three.js"></script>
 		<script src="js/ColladaLoader3.js"></script>
+		<script src="js/simple.js"></script>
 	<!--you will find the normal one under js/simple.js  -->
 <body>
 </html>

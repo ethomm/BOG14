@@ -102,6 +102,7 @@ function initScene(){
 			function(collada){
 			model = collada.scene;
 			scene.add(model);
+			//console.log(JSON.stringify(model));
 			render();
 			doneLoading();
 			stopWatch.stop(totalBytes);
