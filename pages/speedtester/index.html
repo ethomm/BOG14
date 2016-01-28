@@ -17,7 +17,7 @@
 	<div class="container-fluid" id="top-controller">
 		<div class="container">
 			<h1 class="center">Collada vs Json loading</h1>
-			<p>Denne testen tar for seg hastigheten ved å laste inn en colladamodel igjennom en parser på klientsiden. Målet med testen er å se på fordeler og ulemper med å legge jobben med parsingen til klient side versus å sende modellen som en JSON string. Testen foretar 50 gjennomkjøringer</p>
+			<p>Denne testen tar for seg hastigheten ved å laste inn en colladamodel versus å laste inn samme model i JSON format. Three.js har en innebygget .toJSON() metode som kan brukes på collada modeller. Målet med denne testen er å se om det er en gevist med å gjøre modellene om fra collada til JSON. Eller om kostnaden ved behandling av Collada og JSON er like. Resultatet av testen vil bli målt i mb/s. Dette fordi filstørrelsene er forskjellige fra collada til JSON. JSON filen er noe større. For å få mest mulig treffsikkerhet, måler vi derfor i hvilket format som kan få høyest gjennomsnitt i behandlet megabyte per sekund. Testen foretar som default 50 gjennomkjøringer, men du kan sette et større eller mindre antall om du selv ønsker det. Testen laster en modell av millenium falcon. Selve modellene kan du se i <a href="testcollada.html">collada her</a>, og i <a href="testjson.html">JSON her</a>. <small>(Du vil se en sort boks mens modellen lastes inn.)</small></p>
 <div class="row">
 			<div class="col-md-2 col-xs-4 right">
 				Størrelse:<br />
@@ -26,7 +26,7 @@
 				Gjennomsnitt:<br />
 				Maks hastighet:<br />
 				Min hastighet:<br />
-				Gjennomsnittstid:<br />
+				Gjennomsnittsfart:<br />
 			</div>
 			<div class="col-md-3 col-xs-4">
 				<span id="size"></span><br />
@@ -39,11 +39,12 @@
 			</div>
 			<div class="col-md-3 col-xs-4">
 				<div class="input-group inputAntall">
-  				<span class="input-group-addon" id="antall">Antall runder</span>
- 				<input type="number" class="form-control" placeholder="50" aria-describedby="basic-addon1">
+  				<span class="input-group-addon">Antall runder</span>
+ 				<input type="number" class="form-control" placeholder="50" value="5" id="antall" aria-describedby="Antall runder">
 				</div>
 			<button id="startcollada" class="btn btn-success">Start collada test</button>
 			<button id="startjson" class="btn btn-info">Start JSON test</button>
+			<button id="cancel" class="btn btn-danger btn-xs">Avbryt testen</button>
 
 			</div>
 			<div id="result" class="col-md-3 col-xs-4">

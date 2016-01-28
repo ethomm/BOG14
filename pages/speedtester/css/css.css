@@ -57,3 +57,18 @@ footer{
 .inputAntall{
 	margin: 0px 0px 20px 0px;
 }
+
+#result{
+	text-align: center;
+}
+
+.green{
+	padding-top: 0px;
+	color: green;
+	font-weight: bolder;
+	font-size: 4em;
+}
+
+.time{
+	color: #aaa;
+}

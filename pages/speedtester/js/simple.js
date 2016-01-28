@@ -1,30 +1,36 @@
 $(document).ready(function() {
 	$('#startcollada').on('click', function (){
-		console.log("kjører");
+		antallRunder = $('#antall').val();
 		clearTest();
 		runNewTest();
 		isCollada = true;
+		
 
 	});
 	$('#startjson').on('click', function (){
-		startJson();
+		antallRunder = $('#antall').val();
+		clearTest();
+		runNewTest();
 		isCollada = false;
+	});
+	$('#cancel').on('click', function (){
+		rounds = antallRunder = $('#antall').val();
+		
 	});
 });
 
-// SET GLOBAL VARIABLES FOR THE APPLICATION
+//Variables Demanded for Three.js
 	var scene = new THREE.Scene();
 	var renderer = new THREE.WebGLRenderer();
 	var light = new THREE.HemisphereLight( 0xffffee, 0x080820, 9 );
 	var camera = new THREE.PerspectiveCamera( 35, window.innerWidth/ window.innerHeight, 1, 1000 );
-	light.intensity = 1;
 	scene.add(light);
 	scene.add(camera);
-
+// SET GLOBAL VARIABLES FOR THE APPLICATION
 	var colladaModel = 'modells/mil.dae';
 	var antallRunder = 5;
 	var result = 0;
-	var rounds = 1;
+	var rounds = 0;
 	var totalTime = 0;
 	var maksTime = 0;
 	var minTime = 0;
@@ -71,6 +77,7 @@ function nextRound(){
 
 function clearTest(){
 	document.getElementById("testContainer").innerHTML = "";
+	document.getElementById("result").innerHTML = "";
 	rounds = 1;
 	totalTime = 0;
 	maksTime = 0;
@@ -79,7 +86,7 @@ function clearTest(){
 	maksSpeed = 0;
 	minSpeed = 0;
 	totalBytes = 0;
-	updateView();
+	//updateView();
 }
 
 function updateView(){
@@ -108,32 +115,32 @@ function updateView(){
 	$("#size").text(totalBytes.toFixed(2) + " mb");
 	$("#mintime").text(minTime + " sekunder");
 	$("#maxtime").text(maksTime + " sekunder");
-	$("#avgtime").text(totalTime/rounds + " sekunder");
+	$("#avgtime").text((totalTime/rounds).toFixed(3) + " sekunder");
 	$("#maxspeed").text(maksSpeed.toFixed(3) + " mb/s");
 	$("#minspeed").text(minSpeed.toFixed(3) + " mb/s");
-	$("#avgspeed").text(totalSpeed/rounds.toFixed(3) + " mb/s");
+	$("#avgspeed").text((totalSpeed/rounds).toFixed(3) + " mb/s");
 }
 
 function showResult(){
 	var testTidspunkt = new Date();
 	var testsubject = isCollada ? "Collada" : "JSON" ;
-	$('#result').append('<h2>Resultat</h2><h6>'+testTidspunkt+'</h6><p>Testen tok : '+ totalTime.toFixed(2) +' sekunder </p><p class="ingress">GJENNOMSNITTSFART '+testsubject.toUpperCase()+'</p><h2 class="green">'+(totalSpeed/rounds).toFixed(3)+' mb/s</h2><p>på '+rounds+' runder</p>');
+	$('#result').append('<h2>Resultat</h2><h6 class="time">'+testTidspunkt+'</h6><p>Testen tok : '+ totalTime.toFixed(2) +' sekunder </p><p class="ingress">GJENNOMSNITTSFART '+testsubject.toUpperCase()+'</p><span class="green">'+(totalSpeed/rounds).toFixed(2)+'</span> mb/s<p><strong>på '+rounds+' runder</strong></p>');
 }
 
 
 function runNewTest(){
 	if (!startedTest){
-		$("#testContainer").append('<div class="row test"><div class="col-md-4">Started</div></div>');
+		$("#testContainer").prepend('<div class="row test"><div class="col-md-4">Started</div></div>');
 		if(isCollada){startCollada();}else{startJson();}
 		startedTest = true;
 	}
 	else if(startedTest && rounds <antallRunder){
-		$("#testContainer").append('<div class="row test"><div class="col-md-2">Runde: #'+rounds+'</div><div clas="col-md4">Tok <strong>'+ result +'</strong> sekunder med en gjennomsnittsfart på <strong>' + (totalBytes/result).toFixed(3) +' mb/s</strong>. </div>');
+		$("#testContainer").prepend('<div class="row test"><div class="col-md-2">Runde: #'+rounds+'</div><div clas="col-md4">Tok <strong>'+ result +'</strong> sekunder med en gjennomsnittsfart på <strong>' + (totalBytes/result).toFixed(3) +' mb/s</strong>. </div>');
 		if(isCollada){startCollada();}else{startJson();}
 	}
 	else{
-		$("#testContainer").append('<div class="row test"><div class="col-md-2">Runde: #'+rounds+'</div><div clas="col-md4">Tok <strong>'+ result.toFixed(2) +'</strong> sekunder med en gjennomsnittsfart på <strong>' + (totalBytes/result).toFixed(3) +' mb/s</strong>. </div>');
-		$("#testContainer").append('<div class="row test"><div class="col-md-4">Finnished</div></div>');
+		$("#testContainer").prepend('<div class="row test"><div class="col-md-2">Runde: #'+rounds+'</div><div clas="col-md4">Tok <strong>'+ result.toFixed(2) +'</strong> sekunder med en gjennomsnittsfart på <strong>' + (totalBytes/result).toFixed(3) +' mb/s</strong>. </div>');
+		$("#testContainer").prepend('<div class="row test"><div class="col-md-4">Finnished</div></div>');
 		startedTest =false;
 		showResult();
 	}
@@ -147,7 +154,7 @@ function runNewTest(){
 			var startTime = this.startTime;
 			var endTime = new Date();
 			result = (endTime - startTime)/1000;
-			console.log(result);
+			
 		}
 	};
 
