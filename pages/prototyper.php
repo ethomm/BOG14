@@ -26,6 +26,16 @@
   <section>
   <div class="row">
     <article class="col-sm-8">
+      <h2>Collada vs Json</h2>
+      <p>Denne siden kjører en test som ser om det er en fordel å konvertere filer om fra Collada(.dae) til JSON(.json). Vi har i denne testen tatt utgangspunkt i samme model og kjører den igjennom Three.js sin rendrer for å se hvor lang tid det tar i de forskjellige formatene.</p>
+      <p>Hovedpoenget med testen er å gjøre vårt prosjekt raskest mulig client side.</p>
+    </article>
+    <aside class="col-sm-4">
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/speedtester/index.html" target="_blank">Gå til testsiden </a>
+    </aside>
+  </div>
+  <div class="row">
+    <article class="col-sm-8">
       <h2>Colladaloader Three.js</h2>
       <p>Denne prototypen tar for seg lasting av .dae (collada) inn på nettsiden via en parser. I denne prototypen har vi brukt collada loader som er hentet fra "dev" branchen i <a href="https://github.com/mrdoob/three.js/tree/dev/src/loaders" target="_blank"><i class="fa fa-external-link-square">&nbsp;</i>Github prosjektet.</a> I prototypen har vi tatt utganspunkt i tre modeller, for å se på lastetiden ved bytte av modell i realtime.
     </article>
