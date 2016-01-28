@@ -725,12 +725,45 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pages\/speedtester\/js\/AnimationLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/AnimationLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/AnimationLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/pages\/speedtester\/js\/application.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/application.js",
 		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/application-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/binaryLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/binaryLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/binaryLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/BinaryTextureLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/BinaryTextureLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/BinaryTextureLoader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -791,12 +824,67 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/pages\/speedtester\/js\/BufferGeometryLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/BufferGeometryLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/BufferGeometryLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/Cache.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/Cache.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/Cache-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/pages\/speedtester\/js\/ColladaLoader3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/ColladaLoader3.js",
 		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/ColladaLoader3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/CompressedTextureLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/CompressedTextureLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/CompressedTextureLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/CubeTextureLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/CubeTextureLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/CubeTextureLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/ImageLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/ImageLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/ImageLoader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -813,12 +901,243 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/pages\/speedtester\/js\/JSONLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/JSONLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/JSONLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/Loader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/Loader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/Loader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/LoadingManager.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/LoadingManager.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/LoadingManager-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/MaterialLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/MaterialLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/MaterialLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/AnimationLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/AnimationLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/AnimationLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/BinaryTextureLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/BinaryTextureLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/BinaryTextureLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/BufferGeometryLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/BufferGeometryLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/BufferGeometryLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/Cache-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/Cache-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/Cache-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/CompressedTextureLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/CompressedTextureLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/CompressedTextureLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/CubeTextureLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/CubeTextureLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/CubeTextureLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/ImageLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/ImageLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/ImageLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/JSONLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/JSONLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/JSONLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/Loader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/Loader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/Loader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/LoadingManager-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/LoadingManager-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/LoadingManager-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/MaterialLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/MaterialLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/MaterialLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/ObjectLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/ObjectLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/ObjectLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/pages\/speedtester\/js\/min\/simple-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/simple-min.js",
 		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/simple-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/testjson-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/testjson-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/testjson-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/TextureLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/TextureLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/TextureLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/viewcollada-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/viewcollada-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/viewcollada-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/min\/XHRLoader-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/XHRLoader-min.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/min\/XHRLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/ObjectLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/ObjectLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/ObjectLoader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -835,6 +1154,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/pages\/speedtester\/js\/testjson.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/testjson.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/testjson-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/TextureLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/TextureLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/TextureLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/pages\/speedtester\/js\/three.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -846,6 +1187,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/pages\/speedtester\/js\/viewcollada.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/viewcollada.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/viewcollada-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/js\/XHRLoader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/js\/XHRLoader.js",
+		"outputAbbreviatedPath": "\/pages\/speedtester\/js\/min\/XHRLoader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/speedtester\/modells\/mil.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/modells\/mil.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/pages\/speedtester\/modells\/mil-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/pages\/speedtester\/modells\/mil2.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/modells\/mil2.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/pages\/speedtester\/modells\/mil2-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/pages\/speedtester\/modells\/milleniumfalcon.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -856,6 +1241,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/pages\/speedtester\/testcollada.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/testcollada.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/pages\/speedtester\/testjson.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/speedtester\/testjson.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/staticElements\/footer.php": {
 		"fileType": 8192,

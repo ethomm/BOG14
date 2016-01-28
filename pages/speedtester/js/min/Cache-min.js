@@ -1,0 +1,1 @@
+THREE.Cache={enabled:!1,files:{},add:function(e,i){this.enabled!==!1&&(this.files[e]=i)},get:function(e){return this.enabled!==!1?this.files[e]:void 0},remove:function(e){delete this.files[e]},clear:function(){this.files={}}};

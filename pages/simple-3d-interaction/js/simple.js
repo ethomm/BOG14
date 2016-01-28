@@ -100,7 +100,9 @@ function initScene(){
 		loader.options.convertUpAxis = true;
 		loader.load(displayModel, 
 			function(collada){
+				console.log(collada.toString());
 			model = collada.scene;
+			console.log(model.toString());
 			scene.add(model);
 			//console.log(JSON.stringify(model));
 			render();

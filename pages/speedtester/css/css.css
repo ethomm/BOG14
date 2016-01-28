@@ -52,5 +52,8 @@ footer{
 .row{
 	border-top: 1px solid #333;
 	border-bottom: 1px solid #333;
-	padding: 20px 0 20px 0;
+	padding: 5px 0 5px 0;
+}
+.inputAntall{
+	margin: 0px 0px 20px 0px;
 }

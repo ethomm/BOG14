@@ -38,8 +38,16 @@
 				<span id="avgspeed"></span><br />
 			</div>
 			<div class="col-md-3 col-xs-4">
+				<div class="input-group inputAntall">
+  				<span class="input-group-addon" id="antall">Antall runder</span>
+ 				<input type="number" class="form-control" placeholder="50" aria-describedby="basic-addon1">
+				</div>
 			<button id="startcollada" class="btn btn-success">Start collada test</button>
 			<button id="startjson" class="btn btn-info">Start JSON test</button>
+
+			</div>
+			<div id="result" class="col-md-3 col-xs-4">
+					
 			</div>
 		</div>
 		</div>
@@ -52,6 +60,7 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/three.js"></script>
 		<script src="js/ColladaLoader3.js"></script>
+		<script src="js/ObjectLoader.js"></script>
 		<script src="js/simple.js"></script>
 	<!--you will find the normal one under js/simple.js  -->
 <body>
