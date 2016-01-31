@@ -1,12 +1,14 @@
+var scene, camera, renderer;
+
 function init() {
 	var windowHeight = window.innerHeight;
 	var windowWidth = window.innerWidth;
-	var scene = new THREE.Scene();
-	var camera = new THREE.PerspectiveCamera( 45, windowWidth/windowHeight , 0.1 , 1000 );
-
+	scene = new THREE.Scene();
+	camera = new THREE.PerspectiveCamera( 45, windowWidth/windowHeight , 0.1 , 1000 );
+	renderer = new THREE.WebGLRenderer();
 	var stats = initStats();
 
-	var renderer = new THREE.WebGLRenderer();
+	
 	renderer.setClearColor(new THREE.Color(0xEEEEEE, 1.0));
 	renderer.setSize(windowWidth, windowHeight);
 	renderer.shadowMap.enabled = true;
@@ -63,8 +65,19 @@ function init() {
 	camera.position.z = 30;
 	camera.lookAt(scene.position);
 
+	var step=0;
 	function renderScene() {
 	stats.update();
+
+	step+= controls.bouncingSpeed;
+	sphere.position.x = 20+( 10*(Math.cos(step)));
+	sphere.position.y = 2 + (10*Math.abs(Math.sin(step)));
+
+	cube.rotation.x += controls.rotationSpeed;
+	cube.rotation.y += controls.rotationSpeed;
+	cube.rotation.z += controls.rotationSpeed;
+
+
 	requestAnimationFrame(renderScene);
 	renderer.render(scene, camera);
 	}
@@ -73,6 +86,14 @@ function init() {
 	renderScene();
 }
 
+var controls = new function(){
+	this.rotationSpeed = 0.02;
+	this.bouncingSpeed = 0.03;
+};
+
+var gui = new dat.GUI();
+gui.add(controls, 'rotationSpeed', 0, 0.5);
+gui.add(controls, 'bouncingSpeed', 0 , 0.5);
 
 function initStats(){
 	var stats = new Stats();
@@ -83,6 +104,11 @@ function initStats(){
 	document.getElementById('Stats-output').appendChild(stats.domElement);
 	return stats;
 }
+function onResize(){
+	camera.aspect = windowWidth/windowHeight;
+	camera.updateProjectionMatrix();
+	render.setSize(windowWidth, windowHeight);
+}
 
 
 
@@ -99,7 +125,6 @@ function initStats(){
 
 
 
-
-
+window.addEventListener('resize', onResize, false);
 
 window.onload = init;
