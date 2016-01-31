@@ -15,6 +15,7 @@
     	<li><a href="http://frigg.hiof.no/bo16-g14/pages/dokumenter.php"><i class="fa fa-folder-open">&nbsp;</i>Dokumenter</a></li>
     	<li><a href="http://frigg.hiof.no/bo16-g14/pages/oppdragsgiver.php"><i class="fa fa-briefcase">&nbsp;</i>Oppdragsgiver</a></li>
     	<li><a href="http://frigg.hiof.no/bo16-g14/pages/prototyper.php"><i class="fa fa-file-code-o">&nbsp;</i>Prototyper</a></li>
+      <li><a href="http://frigg.hiof.no/bo16-g14/pages/examples.php"><i class="fa fa-cube">&nbsp;</i>Eksempler</a></li>
     	</ul>
     	</nav>
     </div>
