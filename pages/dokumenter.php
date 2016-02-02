@@ -24,17 +24,20 @@
 <main>
 <div class="container">
   <section >
-  <div class="row">
+   <div class="row">
     <article class="col-sm-8">
-      <h2>Forprosjektrapport</h2>
-      <p>Denne rapporten gir en krt beskrivelse av prosjektsgrupppen, oppdraget og oppdragsgiver.</p>
-      <p>Rapporten dekker også plan for gjennomføring og en risikoanalyse</p>
+      <h2>Rapport COLLADA vs JSON</h2>
+      <p>Denne rapporten ser på konverteringstiden til Three.js for formatene COLLADA og JSON</p>
+
+      <p>Three.js gengir på skjermen sitt eget format. Det vil si at alle formater som leveres til THree.js blir konvertert til Three.js sitt eget format.
+      Vi ser derfor i denne rapporten på hvilket format som konverteres raskest av COLLADA og JSON for å se om det er hensiktsmessige å konverte våre COLLADA modeller om til 
+      JSON i arbeidsflyten.</p>
     </article>
     <aside class="col-sm-4">
-    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/forprosjektrapport.pdf" target="_blank"> Last ned forprosjektsrapporten</a>
+    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/rapportcolladavsjson.pdf" target="_blank">Rapport Collada vs Json</a>
     </aside>
   </div>
-  <div class="row">
+   <div class="row">
     <article class="col-sm-8">
       <h2>Rapport om rammeverk</h2>
       <p>Denne rapporten tar for seg forskjellige rammeverk og løsninger for publisering av 3D modeller på nett igjennom WebGL. Noen av disse er nettbaserte løsninger, andre er enkeltstående rammeverk.</p>
@@ -45,6 +48,17 @@
     <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/rammeverkforwebgl.pdf" target="_blank">Last ned rapporten om WebGL rammeverk</a>
     </aside>
   </div>
+  <div class="row">
+    <article class="col-sm-8">
+      <h2>Forprosjektrapport</h2>
+      <p>Denne rapporten gir en kort beskrivelse av prosjektsgrupppen, oppdraget og oppdragsgiver.</p>
+      <p>Rapporten dekker også plan for gjennomføring og en risikoanalyse</p>
+    </article>
+    <aside class="col-sm-4">
+    <i class="fa fa-file-pdf-o">&nbsp;</i><a href="../vedlegg/forprosjektrapport.pdf" target="_blank"> Last ned forprosjektsrapporten</a>
+    </aside>
+  </div>
+ 
   </section>
 </div>
 </main>
