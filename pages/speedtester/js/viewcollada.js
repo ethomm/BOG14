@@ -1,3 +1,5 @@
+var colladaen = null;
+
 $(document).ready(function() {
 
 // SET GLOBAL VARIABLES FOR THE APPLICATION
@@ -10,6 +12,7 @@ $(document).ready(function() {
 	scene.add(light);
 	scene.add(camera);
 	var scale = 0.2;
+	
 //Renderloop
 function render (){
 	renderer.setClearColor( 0xffffff, 1 );
@@ -33,12 +36,18 @@ function initScene(){
 		var loader = new THREE.ColladaLoader();
 		var totalBytes = 0;
 		loader.options.convertUpAxis = true;
+		
+
+
 		loader.load('./modells/mil.dae', 
 			function(collada){
+			colladaen = collada;
 			model = collada.scene;
-			console.log(model.toJSON());
 			//JsonModel = model.toJSON();
 			//console.log(JSON.stringify(JsonModel));
+
+
+
 			scene.add(model);
 			render();
 			});	
