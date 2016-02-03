@@ -54,6 +54,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/blogg\/blog_0302.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90035,
+		"inputAbbreviatedPath": "\/images\/blogg\/blog_0302.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/blog_0302.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logos\/ifelogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3753,6 +3764,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/pages\/blogg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/blogg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/pages\/dokumenter.php": {
 		"fileType": 8192,
