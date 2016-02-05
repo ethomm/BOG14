@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400italic);
 /*Global settings*/
 $fontSize: 16px;
 
@@ -131,6 +132,7 @@ article{
 	p{
 		margin: 15px 0 0 0;
 	}
+
 }
 
 aside{
@@ -155,6 +157,7 @@ aside{
 			color: $color4;
 			font-size: 2em;
 		}
+
 	}
 }
 
@@ -222,3 +225,27 @@ ul.ekslinks{
 	font-size: 0.7em;
 	color: lighten($color4, 20%);
 }
+
+.quote{
+	font-size: 2em;
+	padding: 30px 30px 10px 30px;
+	line-height: 1.5em;
+	font-family: 'Old Standard TT', serif;
+}
+
+.quotebyline{
+	float: right;
+	font-size: 0.8em;
+	font-family: 'Old Standard TT', serif;
+	clear:both;
+	padding: 0 30px 20px 0;
+}
+
+.blogginnlegg{
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #aaa;
+		&:last-of-type{
+			border-bottom: none;
+		}	
+		}

@@ -24,8 +24,20 @@
 <main>
 <div class="container">
   <section >
-   <div class="row">
-    <article class="col-sm-8">
+  <div class="row blogginnlegg">
+    <article class="col-sm-8 ">
+      <h2>Endelig er det Fredag!</h2>
+      <div class="bloggdate">fredag 05.02.2016</div>
+      <p>Da er denne uka ved veis ende. Som litt krydder inn i helgen vil jeg bare dele et sitat jeg kom over i dag.</p>
+      <p class="quote">Let people learn eager loading by crawling across broken glass, like we did. It builds character!</p>
+      <p class="quotebyline">- wilson (Thre Rails 4 Way , 2014)</p>
+      <div class="clearfix"></div>
+      <P>Med slike kloke ord er det bare å ta helg.</p><p> We'll be back next week!</p>      
+    </article>
+
+  </div> 
+   <div class="row blogginnlegg">
+    <article class="col-sm-8 ">
       <h2>LilleLørdag!</h2>
       <div class="bloggdate">Onsdag 03.02.2016</div>
       <img src="../images/blogg/blog_0302.jpg" alt="Lillelørdag på kontoret" />
