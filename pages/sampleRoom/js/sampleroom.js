@@ -6,7 +6,8 @@
 	camera.position.z = 150;
 	scene.add(light);
 	scene.add(camera);
-	var scale = 20;
+	camera.position.y = 30;
+	var scale = 10;
 	var room= 1;
 
 $(document).ready(function() {
@@ -35,7 +36,7 @@ function initScene(){
 		scene.add(camera);
 		var loader = new THREE.ColladaLoader();
 		loader.options.convertUpAxis = true;
-		loader.load('modell/rk2.dae', 
+		loader.load('et/ExporterTest.dae', 
 			function(collada){
 				console.log("this happens");
 			model = collada.scene;

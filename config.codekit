@@ -3908,6 +3908,116 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/pages\/sampleRoom\/et\/texture1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6296,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture1.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 619,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture10.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13806,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture2.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266228,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture3.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17595,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture4.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4537,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture5.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38137,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture6.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32817,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture7.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 601392,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture8.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/pages\/sampleRoom\/et\/texture9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1149,
+		"inputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture9.png",
+		"outputAbbreviatedPath": "\/pages\/sampleRoom\/et\/texture9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/pages\/sampleRoom\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
