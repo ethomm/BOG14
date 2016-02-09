@@ -24,6 +24,19 @@
 <main>
 <div class="container">
   <section >
+    <div class="row blogginnlegg">
+    <article class="col-sm-8 ">
+      <h2>Det bygges en reaktor i Halden</h2>
+      <div class="bloggdate">tirsdag 9.02.2016</div>
+      <img src="../images/blogg/reaktorstart.jpg" alt="Det bygges en reaktor i Halden" />
+      <p>Ryktene har det til at Joakim M. Elden holder på å bygge en reaktor i Halden</p>
+      <p>Ikke bare lager han en reaktor, den lages også på sparebluss. Fra sitt originale budsjett på 600 000 vertex, 
+      har mister elden klart å stramme det ned til rundt 30 000 i skrivende stund. Resultatet er kraftig reduksjon i megabyte
+      og responsen har ikke latt seg vente... Tog du han... ;) Tørr men god!</p>
+
+    </article>
+
+  </div> 
   <div class="row blogginnlegg">
     <article class="col-sm-8 ">
       <h2>Endelig er det Fredag!</h2>
