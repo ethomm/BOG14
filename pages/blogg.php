@@ -24,6 +24,19 @@
 <main>
 <div class="container">
   <section >
+   <div class="row blogginnlegg">
+    <article class="col-sm-8 ">
+      <h2>Da har vi raycasta en reaktor</h2>
+      <div class="bloggdate">tirsdag 9.02.2016</div>
+      <img src="../images/blogg/reaktorraycast.jpg" alt="Reaktor raycasting" />
+      <p>Etter en fin dag og fin lunch hos IFE har vi klart å lage en modell av en raktor hvor vi kan
+      veksle mellom forskjellige lag på modellen. Et skritt nærmere mai...</p>
+      <p>Da er det bare å se hva morgen dagen bringer...</p>
+      <p>vi prekæs!</p>
+
+    </article>
+
+  </div> 
     <div class="row blogginnlegg">
     <article class="col-sm-8 ">
       <h2>Det bygges en reaktor i Halden</h2>
