@@ -26,6 +26,17 @@
   <section>
   <div class="row">
     <article class="col-sm-8">
+      <h2>Raycasting</h2>
+      <p>Disse prototypene tar for seg raycasting. Målet med prototypene er å finne en optimal måte å interaktere med objektene i scenen</p>
+      <p>Prototypene er basert på primitiver og en colladamodel</p>
+    </article>
+    <aside class="col-sm-4">
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/raycasting/index.html" target="_blank">Raycasting med primitiver </a><br />
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/opnelukke/index.html" target="_blank">Raycasting med reaktormodel </a>
+    </aside>
+  </div>
+  <div class="row">
+    <article class="col-sm-8">
       <h2>Collada vs Json</h2>
       <p>Denne siden kjører en test som ser om det er en fordel å konvertere filer om fra Collada(.dae) til JSON(.json). Vi har i denne testen tatt utgangspunkt i samme model og kjører den igjennom Three.js sin rendrer for å se hvor lang tid det tar i de forskjellige formatene.</p>
       <p>Hovedpoenget med testen er å gjøre vårt prosjekt raskest mulig client side.</p>
