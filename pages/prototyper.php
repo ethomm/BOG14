@@ -31,8 +31,8 @@
       <p>Prototypene er basert på primitiver og en colladamodel</p>
     </article>
     <aside class="col-sm-4">
-    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/raycasting/index.html" target="_blank">Raycasting med primitiver </a><br />
-    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/opnelukke/index.html" target="_blank">Raycasting med reaktormodel </a>
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/raycasting/index.html" target="_blank">Raycasting med primitiver </a><br />
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/opnelukke/index.html" target="_blank">Raycasting med reaktormodel </a>
     </aside>
   </div>
   <div class="row">
