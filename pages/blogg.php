@@ -25,6 +25,20 @@
 <main>
 <div class="container">
   <section >
+    <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>From russia with love</h2>
+      <div class="bloggdate">onsdag 10.02.2016</div>
+      <img src="../images/blogg/russia.jpg" alt="russian spy" />
+      <p>En liten kveldstur innom google analytics viste at en person/bruker befant seg på nettsiden vår. Nygjerrig nok, måtte vi jo undersøke hvem det var. Er sidene så interessante at de skaper klikkstrømmer en sen onsdags kveld?</p>
+      <p>Som du ser av illustrasjonen over. Kom brukeren fra Russland... Vi skal ikke bli høye på pæra, men så grensesprengende ting holder vi ikke på meg her altså...</p>
+      <p>Uansett til vår russiske venn: Спасибо за посещение! (uttales "spasibo za poseshcheniye").</p>
+      <p>Vi høres/мы услышали</p>
+      <div class="clearfix"></div>
+         
+    </article>
+
+  </div> 
    <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>Midt i uka</h2>

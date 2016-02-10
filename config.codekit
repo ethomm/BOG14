@@ -87,6 +87,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogg\/russia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126561,
+		"inputAbbreviatedPath": "\/images\/blogg\/russia.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/russia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogg\/smurfey.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
