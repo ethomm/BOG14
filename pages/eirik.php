@@ -26,6 +26,7 @@
 <div class="container">
   <section class=" col-md-6 col-md-offset-3">
   <div class="row">
+  <h1>Eirik Thommessen</h1>
   <p>Denne grafen viser aktivitet som er registert som koding igjennom IDEer eller texteditorer som Sublime. Det vil si at den fysisk registrer tid som brukes på å skrive i editoren. Lesing og Skriving i Google driv blir derfor ikke registrert
 	<img src="https://wakatime.com/@eirikthommessen/f3a3e640-1a14-40f1-bbe7-7f5c2c8a8096.png" />
   </div>
