@@ -195,6 +195,11 @@ footer{
 
 }
 
+.profiles a:hover{
+	text-decoration: none;
+	color: #333;
+}
+
 .eirik{
 	@include profileImage(eirik);
 }

@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400italic);
+/*Global settings*/
+/*Page color variables*/
+/*Header settings*/
+/*Menu settings*/
+/*Break points*/
+/*Profile Images*/
+.headertext h1 {
+  color: #f7fbfc;
+  padding: 70px 0 70px 0;
+  font-size: 3em; }
+  @media screen and (max-width: 992px) {
+    .headertext h1 {
+      font-size: 2.5em;
+      padding: 35px 0 35px 0; }
+      .headertext h1 small {
+        font-size: 0.5em; } }
+  @media screen and (max-width: 653px) {
+    .headertext h1 {
+      font-size: 1.5em;
+      padding: 23.3333333333px 0 23.3333333333px 0; } }
+
+body {
+  background-color: #112a30;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5em; }
+
+main {
+  background-color: white;
+  padding: 20px 0 50px 0; }
+
+h2 {
+  text-transform: uppercase; }
+
+h5 {
+  margin: 0 0 10px 0;
+  text-align: center; }
+
+header {
+  background-color: #183b43; }
+
+.menu {
+  background-color: #112a30; }
+
+nav ul {
+  color: #2A7F40;
+  font-size: 1.3em;
+  padding: 0px 0 0 0;
+  font-weight: bold; }
+@media screen and (max-width: 767px) {
+  nav ul {
+    padding: 0; } }
+
+section {
+  margin: 20px 0 0 0;
+  border-top: 1px ridge #ccc; }
+  section img {
+    max-width: 100%; }
+  section:first-of-type {
+    border: none; }
+  @media screen and (max-width: 653px) {
+    section {
+      border-top: 1px ridge #ccc; } }
+
+article p {
+  margin: 15px 0 0 0; }
+
+aside {
+  margin-top: 60px; }
+  @media screen and (max-width: 767px) {
+    aside {
+      margin-top: 0; } }
+  aside img {
+    margin-top: -50px;
+    width: 100%; }
+    @media screen and (max-width: 767px) {
+      aside img {
+        display: none; } }
+  aside article {
+    background-color: #ccc;
+    font-size: 0.8em;
+    padding: 2px 5px 15px 15px;
+    margin: 20px 0 0 0; }
+    aside article h3 {
+      color: #AA7139;
+      font-size: 2em; }
+
+footer {
+  display: block;
+  margin: 30px 0 0 0;
+  font-size: 0.6em;
+  bottom: 0;
+  background-color: #112a30;
+  color: gray; }
+  footer p {
+    margin: 0 0 0 0;
+    padding: 0px; }
+
+.profile {
+  margin: 20px 0 0 0; }
+  .profile h3 {
+    text-align: center; }
+  .profile:nth-of-type(3) {
+    border-left: 1px ridge #ccc;
+    border-right: 1px ridge #ccc; }
+  @media screen and (max-width: 767px) {
+    .profile:nth-of-type(3) {
+      border-left: 0;
+      border-right: 0; } }
+
+.profiles a:hover {
+  text-decoration: none;
+  color: #333; }
+
+.eirik {
+  display: block;
+  background-image: url(../images/persons/eirik_norm.jpg);
+  min-width: 200px;
+  min-height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto; }
+  @media screen and (max-width: 992px) {
+    .eirik {
+      max-width: 100px;
+      max-height: 100px;
+      min-height: 100px;
+      min-width: 100px; } }
+  .eirik:hover {
+    background-image: url(../images/persons/eirik.jpg); }
+
+.janina {
+  display: block;
+  background-image: url(../images/persons/janina_norm.jpg);
+  min-width: 200px;
+  min-height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto; }
+  @media screen and (max-width: 992px) {
+    .janina {
+      max-width: 100px;
+      max-height: 100px;
+      min-height: 100px;
+      min-width: 100px; } }
+  .janina:hover {
+    background-image: url(../images/persons/janina.jpg); }
+
+.joakim {
+  display: block;
+  background-image: url(../images/persons/joakim_norm.jpg);
+  min-width: 200px;
+  min-height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto 0 auto; }
+  @media screen and (max-width: 992px) {
+    .joakim {
+      max-width: 100px;
+      max-height: 100px;
+      min-height: 100px;
+      min-width: 100px; } }
+  .joakim:hover {
+    background-image: url(../images/persons/joakim.jpg); }
+
+.credit, .email {
+  text-align: center; }
+
+.mobilemenu {
+  color: white;
+  font-size: 2em; }
+
+ul.ekslinks {
+  padding: 0; }
+  ul.ekslinks li {
+    list-style: none; }
+
+.bloggdate {
+  font-size: 0.7em;
+  color: #d2a477; }
+
+.quote {
+  font-size: 2em;
+  padding: 30px 30px 10px 30px;
+  line-height: 1.5em;
+  font-family: 'Old Standard TT', serif; }
+
+.quotebyline {
+  float: right;
+  font-size: 0.8em;
+  font-family: 'Old Standard TT', serif;
+  clear: both;
+  padding: 0 30px 20px 0; }
+
+.blogginnlegg {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #aaa; }
+  .blogginnlegg:last-of-type {
+    border-bottom: none; }
