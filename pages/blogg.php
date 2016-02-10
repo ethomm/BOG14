@@ -25,6 +25,23 @@
 <main>
 <div class="container">
   <section >
+   <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>Det er så lett!</h2>
+      <div class="bloggdate">onsdag 11.02.2016</div>
+      <img src="../images/blogg/gravatar.png" alt="gravatar" />
+      <p>Skal være den første til å innrømme at jeg ikke hadde hørt om dette før inntil noen uker siden. Men hvor artig er ikke dette. Du kan gå inn på <a href="https://en.gravatar.com/">Gravatar (A Globally Recognized Avatar)</a> og registrere deg med epost adresser du bruker forskjellige steder. Nettsidene du bruker med emailen din kan via din epost hente din avatar, eller profilbilde. artig! </p>
+      <p>Det artigste er at det er så lett å implementere på siden din. I eksempelet over har vi brukt Ruby som språk for å hente avataren til brukeren som er registert</p>
+      <p>I all hovedsak sender du en hashet versjon (MD5) av en epostadresse til gravatar</p>
+      <p>I eksempelet over har vi lagt til et par andre funksjoner som størrelse, samt sørget for at eposten som blir hashet er i småbokstaver. Tilbake får vi en image tag som vil se ut som <p><code>&lt;img src="ADDRESSEN TIL BILDET" alt="NAVNET TIL BRUKEREN" class="gravatar" /&gt;</code></p>
+
+      <p>
+      <embed type="application/x-shockwave-flash" src="https://v0.wordpress.com/player.swf?v=1.04" width="400" height="224" wmode="direct" seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true" flashvars="guid=HNyK67JS&amp;isDynamicSeeking=true"></embed></p>
+      <div class="clearfix"></div>
+         
+    </article>
+
+  </div> 
     <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>From russia with love</h2>
