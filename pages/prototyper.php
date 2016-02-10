@@ -8,7 +8,7 @@
   ?>
     <title>Bacheloroppgaven 2016 - prototyper</title>
   </head>
-  <?php include_once("analyticstracking.php") ?>
+  <?php include_once("../staticElements/analyticstracking.php") ?>
   <body>
   <header>
   	<div class="container headertext">
