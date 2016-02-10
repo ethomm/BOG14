@@ -8,6 +8,7 @@
   ?>
     <title>Bacheloroppgaven 2016 - dokumenter</title>
   </head>
+  <?php include_once("analyticstracking.php") ?>
   <body>
   <header>
   	<div class="container headertext">
