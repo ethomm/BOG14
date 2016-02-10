@@ -25,6 +25,19 @@
 <div class="container">
   <section >
    <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>Midt i uka</h2>
+      <div class="bloggdate">onsdag 10.02.2016</div>
+      <img src="../images/blogg/smurfey.jpg" alt="brillesmurf" />
+      <p>Starter dagen med et lite sitat som kanskje er med på å øke motivasjonen, eller bare en reminder om hvorfor ;)</p>
+      <p class="quote">Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.</p>
+      <p class="quotebyline">- Linus Torvalds</p>
+      <div class="clearfix"></div>
+         
+    </article>
+
+  </div> 
+   <div class="row blogginnlegg">
     <article class="col-sm-8 ">
       <h2>Da har vi raycasta en reaktor</h2>
       <div class="bloggdate">tirsdag 9.02.2016</div>
