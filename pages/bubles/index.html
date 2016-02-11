@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html>
-		<head>
-			<meata charset="UTF-8">
-			<title>Eksempel - bubles</title>
-			<style>
+<head>
+	<meata charset="UTF-8">
+		<title>Eksempel - bubles</title>
+		<link rel="stylesheet" href="../../css/bootstrap.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<style>
 			body{
 				margin: 0;
 				overflow: hiden;
+				background-color: white;
 			}
-			</style>
-		</head>
-		<body>
-		<lable>Subdevisions</lable>
-		<input type="number" id="sub" value="18"> <input id="oppdater" type="button" value="Oppdater" /> Antall subdevisions er nå: <span class="subnow">18</span>
-			<div id="output"></div>
-			<script src="../../js/jquery.js"></script>
-			<script src="../../js/three.js"></script>
-			<script src="../../js/loaders/ColladaLoader3.js"></script>
-			<script src="js/bubles.js"></script>
-		</body>
+			.centerpadding{
+				margin-top: 20px;
+				position: absolute;
+				display: none;
+				
+			}
+			#stop{
+				display: none;
+			}
+			#loader{
+			position: absolute;
+			font-size: 5em;
+			margin: 0 auto;
+			width: 100%;
+			margin-top: 20%;
+			vertical-align: middle;
+			text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container centerpadding">
+			<button class="btn btn-success btn-lg" id="start">Start vannkorker'n!</button>
+			<button class="btn btn-danger btn-lg" id="stop">Stopp vannkoker'n!</button>
+		</div>
+		<div id="loader"><i class="fa fa-cog fa-spin"></i>&nbsp;Rendering</div>
+		<div id="output"></div>
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/three.js"></script>
+		<script src="../../js/renderers/Projector.js"></script>
+		<script src="../../js/loaders/ColladaLoader3.js"></script>
+		<script src="../../js/controls/OrbitControls.js"></script>
+		<script src="../../js/SPE.min.js"></script>
+		<script src="js/bubles.js"></script>
+	</body>
 </html>
