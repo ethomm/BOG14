@@ -28,7 +28,7 @@
    <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>Det er så lett!</h2>
-      <div class="bloggdate">onsdag 11.02.2016</div>
+      <div class="bloggdate">torsdag 11.02.2016</div>
       <img src="../images/blogg/gravatar.png" alt="gravatar" />
       <p>Skal være den første til å innrømme at jeg ikke hadde hørt om dette før inntil noen uker siden. Men hvor artig er ikke dette. Du kan gå inn på <a href="https://en.gravatar.com/">Gravatar (A Globally Recognized Avatar)</a> og registrere deg med epost adresser du bruker forskjellige steder. Nettsidene du bruker med emailen din kan via din epost hente din avatar, eller profilbilde. artig! </p>
       <p>Det artigste er at det er så lett å implementere på siden din. I eksempelet over har vi brukt Ruby som språk for å hente avataren til brukeren som er registert</p>
