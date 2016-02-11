@@ -5,6 +5,7 @@ var windowHeight = window.innerHeight;
 var windowWidth = window.innerWidth;
 var textureLoader = new THREE.TextureLoader();
 var scale = 8;
+var subdiv = 18;
 
 //henter texturer
 var vann = textureLoader.load( './images/water.png' );
@@ -32,7 +33,7 @@ function init(){
 	
 
 	//lager cylinder
-	var geometry = new THREE.CylinderGeometry( 5, 5, 20, 18 );
+	var geometry = new THREE.CylinderGeometry( 5, 5, 20, subdiv );
 	var material = new THREE.MeshPhongMaterial( {map: vann, transparent: true, depthTest: true} );
 	var cylinder = new THREE.Mesh( geometry, material );
 	scene.add( cylinder );
@@ -40,7 +41,7 @@ function init(){
 
 	//Lager en ball
 	sphere = new buble();
-	sphere2 = new buble()
+	sphere2 = new buble();
 
 	sphere.position.y = -10;
 	scene.add(sphere);
@@ -70,5 +71,11 @@ function reSize(){
 
 //window dom listeners
 
+$(document).ready(function() {
+	$('#oppdater').on('click', function (){
+		subdiv = parseInt($('#sub').val());
+		init();
+	});
+});
 window.onload = init;
 window.onresize = reSize;
