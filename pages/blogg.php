@@ -32,7 +32,7 @@
       <img src="../images/blogg/koker.jpg" alt="Vannkoker" />
       <p>Vi har klart å lage en vannkoker!</p>
       <p>Det er ingen hemmelighet at en atomreaktor når man koker det ned til beinet, er en glorifisert vannkoker. Så i oppgaven vår med å visuelt illustrere dette, er vi nødt til å ha kokende vann... Altså koke vann, en vannkoker..</p>
-      <p>I vår siste prototype bubles kan du starte og stoppe vannkokeren som du vil. Om litt skal vi få animert resten av reaktoren også.</p>
+      <p>I vår siste <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/bubles/index.html" target="_blank">prototype bubles</a> kan du starte og stoppe vannkokeren som du vil. Om litt skal vi få animert resten av reaktoren også.</p>
       <p>Følg med! 敬請期待! Оставайтесь с нами!</p>
     </article>
 
