@@ -25,6 +25,15 @@
 <main>
 <div class="container">
   <section>
+   <div class="row">
+    <article class="col-sm-8">
+      <h2>Partikelgenerator</h2>
+      <p>Denne prototypen tar for seg animasjon av bobler i vann, ved bruk av en partikkel generator</p>
+    </article>
+    <aside class="col-sm-4">
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="http://frigg.hiof.no/bo16-g14/pages/bubles/index.html" target="_blank">Vann koker, partikel generator</a><br />
+    </aside>
+  </div>
   <div class="row">
     <article class="col-sm-8">
       <h2>Raycasting</h2>

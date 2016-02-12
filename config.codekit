@@ -85,6 +85,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogg\/koker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19632,
+		"inputAbbreviatedPath": "\/images\/blogg\/koker.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/koker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogg\/reaktorraycast.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -25,6 +25,18 @@
 <main>
 <div class="container">
   <section >
+     <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>Something's cooking</h2>
+      <div class="bloggdate">fredag 12.02.2016</div>
+      <img src="../images/blogg/koker.jpg" alt="Vannkoker" />
+      <p>Vi har klart å lage en vannkoker!</p>
+      <p>Det er ingen hemmelighet at en atomreaktor når man koker det ned til beinet, er en glorifisert vannkoker. Så i oppgaven vår med å visuelt illustrere dette, er vi nødt til å ha kokende vann... Altså koke vann, en vannkoker..</p>
+      <p>I vår siste prototype bubles kan du starte og stoppe vannkokeren som du vil. Om litt skal vi få animert resten av reaktoren også.</p>
+      <p>Følg med! 敬請期待! Оставайтесь с нами!</p>
+    </article>
+
+  </div> 
    <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>Det er så lett!</h2>
