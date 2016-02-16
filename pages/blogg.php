@@ -25,6 +25,16 @@
 <main>
 <div class="container">
   <section >
+         <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>The lone Wolfe</h2>
+      <div class="bloggdate">tirsdag 16.02.2016</div>
+      <img src="../images/blogg/pepsicola.jpg" alt="Pepsi vs Cola" />
+      <p>Noen skal alltid gjøre noe på en annen måte. Gå mot strømmen, eller svømme opp elva.</p>
+      <p>At Janina er windows og android bruker, er en kjent sak. At vi to andre er mac og iphone, er også en kjent sak. Men i dag fant vi ut at også i drikkeveien, er det forskjell.</p>
+    </article>
+
+  </div> 
        <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>Skrivestund har....</h2>
