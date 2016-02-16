@@ -25,6 +25,32 @@
 <main>
 <div class="container">
   <section >
+         <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>The lone Wolfe</h2>
+      <div class="bloggdate">tirsdag 16.02.2016</div>
+      <img src="../images/blogg/pepsicola.jpg" alt="Pepsi vs Cola" />
+      <p>Noen skal alltid gjøre noe på en annen måte. Gå mot strømmen, eller svømme opp elva.</p>
+      <p>At Janina er windows og android bruker, er en kjent sak. At vi to andre er mac og iphone, er også en kjent sak. Men i dag fant vi ut at også i drikkeveien, er det forskjell.</p>
+    </article>
+
+  </div> 
+       <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>Skrivestund har....</h2>
+      <div class="bloggdate">fredag 12.02.2016</div>
+      <img src="../images/blogg/skrive.jpg" alt="Skrivestund" />
+      <p>I dag får man ta litt fatt på hoveddokumentet og dokumentere hva det er vi holder på med. I dag er det 27 dager til første utkast på hoveddokumentet skal leveres. Riktig nok ikke et utkast utkast, men mer et bevis på at man har startet på det. Som dere ser av bilde øverst i innlegget har vi gjort det.</p>
+      <p>Immens andre bryr seg om gravitasjonsbølger og sorte hull kan vi melde følgende:</p>
+      <p><img src="../images/blogg/sublime.jpg" alt="Sublime update" /></p>
+      <p>Så da er det bare å kode seg inn i helgen. TWEEN here we come! Mer animasjon, mer morro! Er det ikke det man sier?</p>
+      <p>Så får å gi en jet start på helgen. Don't drink an type eller som Adam Osborne sier det:</p>
+      <p class="quote">People think computers will keep them from making mistakes. They're wrong. With computers you make mistakes faster.</p>
+      <p class="quotebyline">Adam Osborne</p>
+      <p>Ha en fortreffelig helg!</p>
+    </article>
+
+  </div> 
      <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>Something's cooking</h2>
