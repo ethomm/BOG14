@@ -27,6 +27,38 @@
   <section >
          <div class="row blogginnlegg">
      <article class="col-sm-8 ">
+      <h2>As the time passes by</h2>
+      <div class="bloggdate">onsdag 17.02.2016</div>
+      <img src="../images/blogg/wakatime.jpg" alt="Pepsi vs Cola" />
+      <p>I dag har vi valgt å fokusere på andre ting en merkevalget i gruppa. Vi har kommet over et verktøy som vi gjerne skulle ha vist om for noen år siden. Selv den dag i dag lurer flere av oss på hvor lang tid vi enten brukte på innføring i programmering, spillprogrammering eller andre programmeringsfag.</p>
+      <p>Svarer er.....</p>
+      <p>Du skulle ha brukt <a href="https://wakatime.com/" target="_blank">WAKATIME.COM</a></p>
+      <p>Med enkle plugins regner wakatime.com hvor lang tid du aktivt jobber i programmet. Wakatime tilbyr plugins til 27 forskellige IDEer. 10 av disse er i prioriterte rekkefølge</p>
+      <ul>
+        <li>Sublime</li>
+        <li>Android Studio</li>
+        <li>Unity</li>
+        <li>Xcode</li>
+        <li>Visual Studio</li>
+        <li>Eclipse</li>
+        <li>Atom</li>
+        <li>Notepad++</li>
+        <li>NetBeans</li>
+        <li>RubyMine</li>
+        <li><a href="https://wakatime.com/editors" target="_blank"> Fullstendig liste finner du her</a></li>
+      </ul>
+      <p>Sorry Joakim, finnes ikke plugin for Maya...</p>
+      <p>Ikke bare får du oversikt over hvor lang tid du bruker, men du får også oversikt over hvilke språk du skriver i, samt hvor lang tid du bruker på forskjellige prosjekter... Smart? Think so....</p>
+
+      <p>Det er selvfølgelig noe vi savner. For Wakatime er jo strålende for de som utelukkende skriver i texteditorer rettet mot programmering. Men hva med de som bruker mesteparten av tiden sin i Photoshop og andre lignende programmer. Frykt ikke. Ting er på vei. Wakatime jobber med plugin for både Photoshop og... hold your horses, Chrome og Firefox. Da kan du faktisk logge hvor mye du surfer... Neida. Men det er greit å vite hvor mye tid du bruker i for eks google docs.</p>
+      <p class="quote">Time you enjoy wasting, was not wasted.<p>
+      <p class="quotebyline">John Lennon</p>
+    </article>
+
+  </div> 
+
+         <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
       <h2>The lone Wolfe</h2>
       <div class="bloggdate">tirsdag 16.02.2016</div>
       <img src="../images/blogg/pepsicola.jpg" alt="Pepsi vs Cola" />
