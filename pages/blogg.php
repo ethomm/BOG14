@@ -25,11 +25,24 @@
 <main>
 <div class="container">
   <section >
+             <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>#DenFølelsen</h2>
+      <div class="bloggdate">fredag 19.02.2016</div>
+      <img src="../images/blogg/boker.jpg" alt="Leselisten" />
+      <p>...Når du baksiden på en bok og legger den i haugen med de andre bøkene du leser på i bachelor prosjektet og oppdager...</p>
+      <p>Du har kommer deg over halvveis. Langt over halvveis. På venstre side 1900 sider, på høyreside 500.</p>
+      <p>Da er det bare å ta helg!</p>
+      <p>Prekæs!</p>
+    </article>
+
+  </div> 
+
          <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>As the time passes by</h2>
       <div class="bloggdate">onsdag 17.02.2016</div>
-      <img src="../images/blogg/wakatime.jpg" alt="Pepsi vs Cola" />
+      <img src="../images/blogg/wakatime.jpg" alt="Wakatime" />
       <p>I dag har vi valgt å fokusere på andre ting en merkevalget i gruppa. Vi har kommet over et verktøy som vi gjerne skulle ha vist om for noen år siden. Selv den dag i dag lurer flere av oss på hvor lang tid vi enten brukte på innføring i programmering, spillprogrammering eller andre programmeringsfag.</p>
       <p>Svarer er.....</p>
       <p>Du skulle ha brukt <a href="https://wakatime.com/" target="_blank">WAKATIME.COM</a></p>
