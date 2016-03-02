@@ -74,6 +74,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogg\/boker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38771,
+		"inputAbbreviatedPath": "\/images\/blogg\/boker.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/boker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogg\/gravatar.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -92,6 +103,17 @@
 		"initialSize": 19632,
 		"inputAbbreviatedPath": "\/images\/blogg\/koker.jpg",
 		"outputAbbreviatedPath": "\/images\/blogg\/koker.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/pepsicola.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85710,
+		"inputAbbreviatedPath": "\/images\/blogg\/pepsicola.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/pepsicola.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -129,6 +151,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogg\/skrive.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29688,
+		"inputAbbreviatedPath": "\/images\/blogg\/skrive.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/skrive.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogg\/smurfey.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -136,6 +169,28 @@
 		"initialSize": 120321,
 		"inputAbbreviatedPath": "\/images\/blogg\/smurfey.jpg",
 		"outputAbbreviatedPath": "\/images\/blogg\/smurfey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/sublime.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18846,
+		"inputAbbreviatedPath": "\/images\/blogg\/sublime.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/sublime.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/wakatime.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38059,
+		"inputAbbreviatedPath": "\/images\/blogg\/wakatime.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/wakatime.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

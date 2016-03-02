@@ -25,6 +25,20 @@
 <main>
 <div class="container">
   <section >
+
+               <div class="row blogginnlegg">
+     <article class="col-sm-8 ">
+      <h2>Tvillingene</h2>
+      <div class="bloggdate">onsdag 2.03.2016</div>
+      <img src="../images/blogg/tvilling.jpg" alt="Leselisten" />
+      <p>OK, nå har vi holdt på i noen uker. Vi har telt vi har regnet, vi har studert. Som du ser over har vi to modeller som tilsynelatende er like.</p>
+      <p>De er så like at det er vanskelig å se store forskjeller på de. Det beviser bare en av mange ting. Vi har kommet frem til noe... RESULTAT</p>
+      <p>For disse to modellene er basert på to helt forskjellige ting. Den ene er basert på et mål om å lage en modell. den andre er basert på å lage samme modell ved bruk av så få polygoner som mulig</p>
+      <p>Den ene veier 2,5 mb og den andre veier 98,7 mb... mao totalt forskjellig og et hav av innlastingstid i forskjell. Men hvem er hvem????
+      <p>Tygg på den du...</p>
+    </article>
+
+  </div> 
              <div class="row blogginnlegg">
      <article class="col-sm-8 ">
       <h2>#DenFølelsen</h2>
