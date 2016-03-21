@@ -13,7 +13,7 @@
 	<div class="col-xs-12 ">
 		<h2>Gruppen</h2>
 	</div>
-		<div class="col-sm-4 col-xs-12 profile profiles">
+	<div class="col-sm-6 col-xs-12 profile profiles">
 			
 			<a href="pages/eirik.php">
 			<div class="eirik"></div>
@@ -22,15 +22,8 @@
 			<h5>fra Oslo, bosatt i Moss</h5>
 			<p class="email"><i class="fa fa-envelope-o">&nbsp;</i>Email : eirik.b.thommessen@hiof.no</p>
 			
-		</div>
-		<div class="col-sm-4  col-xs-12 profile">
-			
-			<div class="janina"></div>
-			<h3>Janina Simone Martinsen</h3>
-			<h5>bosatt i Moss</h5>
-			<p class="email"><i class="fa fa-envelope-o">&nbsp;</i>Email : janina.s.martinsen@hiof.no</p>
-		</div>
-		<div class="col-sm-4  col-xs-12 profile">
+	</div>
+	<div class="col-sm-6  col-xs-12 profile ">
 			
 			<div class="joakim"></div>
 			<h3>Joakim Milian Elden</h3>

@@ -102,11 +102,10 @@ footer {
   margin: 20px 0 0 0; }
   .profile h3 {
     text-align: center; }
-  .profile:nth-of-type(3) {
-    border-left: 1px ridge #ccc;
+  .profile:nth-of-type(2) {
     border-right: 1px ridge #ccc; }
   @media screen and (max-width: 767px) {
-    .profile:nth-of-type(3) {
+    .profile:nth-of-type(2) {
       border-left: 0;
       border-right: 0; } }
 
@@ -117,8 +116,8 @@ footer {
 .eirik {
   display: block;
   background-image: url(../images/persons/eirik_norm.jpg);
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
   background-size: 100%;
   border-radius: 50%;
   width: 50%;
@@ -135,8 +134,8 @@ footer {
 .janina {
   display: block;
   background-image: url(../images/persons/janina_norm.jpg);
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
   background-size: 100%;
   border-radius: 50%;
   width: 50%;
@@ -153,8 +152,8 @@ footer {
 .joakim {
   display: block;
   background-image: url(../images/persons/joakim_norm.jpg);
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 300px;
+  min-height: 300px;
   background-size: 100%;
   border-radius: 50%;
   width: 50%;
