@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=$.getJSON("http://nameless-fortress-73855.herokuapp.com/annotations/1.json",function(){console.log("success")}).done(function(){console.log("second success"),console.log(data)}).fail(function(){console.log("error")}).always(function(){console.log("complete")});o.complete(function(){console.log("second complete")})});
