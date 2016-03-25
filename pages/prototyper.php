@@ -25,6 +25,15 @@
 <main>
 <div class="container">
   <section>
+  <div class="row">
+    <article class="col-sm-8">
+      <h2>Web Service</h2>
+      <p>Uheldigvis for de som ikke er innvigde i prosjektet kan vi ikke gi full tilgang til denne prototypen</p>
+    </article>
+    <aside class="col-sm-4">
+    <i class="fa fa-file-code-o">&nbsp;</i><a href="https://nameless-fortress-73855.herokuapp.com" target="_blank">WebService for innhold</a><br />
+    </aside>
+  </div>
    <div class="row">
     <article class="col-sm-8">
       <h2>Partikelgenerator</h2>

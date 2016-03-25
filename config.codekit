@@ -74,6 +74,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogg\/animate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21139,
+		"inputAbbreviatedPath": "\/images\/blogg\/animate.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/animate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogg\/blog_0302.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -81,6 +92,17 @@
 		"initialSize": 90035,
 		"inputAbbreviatedPath": "\/images\/blogg\/blog_0302.jpg",
 		"outputAbbreviatedPath": "\/images\/blogg\/blog_0302.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/boker.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38771,
+		"inputAbbreviatedPath": "\/images\/blogg\/boker.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/boker.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -180,6 +202,28 @@
 		"initialSize": 18846,
 		"inputAbbreviatedPath": "\/images\/blogg\/sublime.jpg",
 		"outputAbbreviatedPath": "\/images\/blogg\/sublime.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/tvilling.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28141,
+		"inputAbbreviatedPath": "\/images\/blogg\/tvilling.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/tvilling.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogg\/wakatime.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38059,
+		"inputAbbreviatedPath": "\/images\/blogg\/wakatime.jpg",
+		"outputAbbreviatedPath": "\/images\/blogg\/wakatime.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5412,6 +5456,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/pages\/threejsexamples\/Basic.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pages\/threejsexamples\/Basic.js",
+		"outputAbbreviatedPath": "\/pages\/threejsexamples\/min\/Basic-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/pages\/threejsexamples\/c01e1.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5505,12 +5560,12 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Bachelor Sidene",
+	"displayValue": "GruppensNettside",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "harddrive_brown"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -5816,7 +5871,7 @@
 			"flagValue": -1
 			},
 		"latedef": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"laxbreak": {
@@ -5972,11 +6027,11 @@
 			"flagValue": -1
 			},
 		"undef": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"varstmt": {
