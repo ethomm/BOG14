@@ -44,7 +44,7 @@ function init() {
 	// Henter renderen
     renderer = new THREE.WebGLRenderer();
     renderer.setSize( window.innerWidth, window.innerHeight );
-    renderer.setClearColor(0xff0000);
+    renderer.setClearColor(0xffffff);
 
     // Henter en Orbitkontroller
     controls = new THREE.OrbitControls( camera, renderer.domElement );
